@@ -1,0 +1,427 @@
+{
+  "app": {
+    "name": "Work Abroad",
+    "demoBadge": "DEMO",
+    "demoBanner": "Bu bir prototiptir — veriler gerçek değildir."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "jobs": "İş ilanları",
+    "about": "Hakkımızda",
+    "employers": "İşverenler için",
+    "pricing": "Fiyatlar",
+    "trust": "Güven",
+    "applications": "Başvurularım",
+    "messages": "Mesajlar",
+    "profile": "Profil",
+    "dashboard": "Panel",
+    "pipeline": "Hat",
+    "billing": "Faturalandırma",
+    "team": "Ekip",
+    "settings": "Ayarlar",
+    "signIn": "Giriş yap",
+    "signUp": "Kayıt ol",
+    "signOut": "Çıkış"
+  },
+  "landing": {
+    "hero": {
+      "title": "Yurt dışında güvenli iş",
+      "subtitle": "Her adımda sizi koruruz. Hiçbir iş için ücret ödemezsiniz.",
+      "ctaCandidate": "İş arıyorum",
+      "ctaEmployer": "İşverenler için"
+    },
+    "usp": {
+      "safety": {
+        "title": "Güvenlik",
+        "body": "Doğrulanmış işverenler ve her adımda şeffaf süreç."
+      },
+      "transparency": {
+        "title": "Şeffaflık",
+        "body": "Başvurudan işe başlamaya kadar tüm yolculuk uygulamada görünür."
+      },
+      "speed": {
+        "title": "Hız",
+        "body": "Saniyeler içinde başvurun; platform belge hazırlığında yardım eder."
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl çalışır",
+      "step1": {
+        "title": "İlan seçin",
+        "body": "Ülke, sektör, maaş — hepsi tek akışta."
+      },
+      "step2": {
+        "title": "Başvurun",
+        "body": "Kısa form ve pasaport taraması 3 dakika sürer."
+      },
+      "step3": {
+        "title": "Onay alın",
+        "body": "İşveren inceler, gerekirse kısa bir video ister."
+      },
+      "step4": {
+        "title": "Vize ve yolculuk",
+        "body": "Belgeler ve vize bizim sorumluluğumuzda. Dolandırıcılık yok."
+      }
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "intro": "Work Abroad, mavi yakalı işçiler için güvenli uluslararası istihdam platformudur.",
+    "mission": {
+      "title": "Misyonumuz",
+      "body": "Dolandırıcı aracıları, doğrulanmış işverenler ve şeffaf süreçlerle değiştiriyoruz. İşçiden tek kuruş alınmaz — ILO 181 ilkesi."
+    },
+    "values": {
+      "title": "İlkelerimiz",
+      "safety": "İşçi güvenliği her zaman önce gelir.",
+      "transparency": "Her işlem uygulamada görünür.",
+      "respect": "İşçi, meta değil eşit bir katılımcıdır."
+    }
+  },
+  "employers": {
+    "hero": {
+      "title": "14 günde doğrulanmış işçi bulun",
+      "subtitle": "Otomatik pipeline, entegre hukuki kontrol, yalnızca sonuç için ödeme.",
+      "cta": "İşe almaya başla"
+    },
+    "benefits": {
+      "title": "Size sunduklarımız",
+      "speed": {
+        "title": "Hız",
+        "body": "Yayından sonraki ilk hafta 50'ye kadar başvuru."
+      },
+      "compliance": {
+        "title": "Uyumluluk",
+        "body": "GLAA / POEA / EPS — lisansları ve belgeleri sizin yerinize doğrularız."
+      },
+      "tools": {
+        "title": "Araçlar",
+        "body": "Kanban, video yanıtları, otomatik SLA hatırlatıcıları."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Fiyatlar",
+    "subtitle": "Uygun planı seçin. İlk işe alım ücretsiz.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "€49/ay",
+        "description": "Küçük ekipler için, 1 ilan",
+        "features": ["1 aktif ilan", "Ayda 20 başvuruya kadar", "E-posta desteği"]
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "€199/ay",
+        "description": "Büyüyen ekipler için, 10 ilana kadar",
+        "features": [
+          "10 aktif ilan",
+          "Video yanıtları",
+          "Kanban ve SLA takibi",
+          "Öncelikli moderasyon"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "€599/ay",
+        "description": "Toplu işe alım için",
+        "features": ["Sınırsız ilan", "ATS entegrasyonu", "Özel CSM", "SSO ve denetim günlükleri"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Özel",
+        "description": "Özel SLA ve SOC2",
+        "features": [
+          "Bireysel sözleşme",
+          "Yerinde doğrulama",
+          "SOC2 ve DPA",
+          "Başarı bedeli modeli"
+        ]
+      }
+    },
+    "cta": "Seç"
+  },
+  "trust": {
+    "title": "İşçiyi nasıl koruyoruz",
+    "intro": "Bir işveren ilan yayımlayabilmeden önce altı doğrulama.",
+    "steps": {
+      "1": {
+        "title": "Hukuki kayıt",
+        "body": "Kurumsal kayıtları OpenCorporates üzerinden doğrularız."
+      },
+      "2": {
+        "title": "Lisanslar",
+        "body": "GLAA (İngiltere), POEA / DMW (Filipinler), EPS (Kore). Lisans yoksa yayın yok."
+      },
+      "3": {
+        "title": "Kurumsal belgeler",
+        "body": "Kuruluş belgeleri, tescil belgesi, vergi numarası."
+      },
+      "4": {
+        "title": "Video görüşme",
+        "body": "Ekibimiz işverenin iletişim kişisiyle görüşür."
+      },
+      "5": {
+        "title": "Adres doğrulama",
+        "body": "Fiziksel ofis varlığı doğrulanır."
+      },
+      "6": {
+        "title": "İşçi değerlendirmeleri",
+        "body": "Her işçi işe yerleştikten sonra anonim değerlendirme bırakabilir."
+      }
+    },
+    "pledge": "İşçiden tek kuruş alınmaz — ILO 181. İhlal = yasak."
+  },
+  "auth": {
+    "login": {
+      "title": "Giriş yap",
+      "subtitle": "Demo modu — parola gerekmeden rol seçin.",
+      "candidate": "Aday olarak giriş yap",
+      "employer": "İşveren olarak giriş yap",
+      "admin": "Yönetici olarak giriş yap",
+      "noAccount": "Hesabınız yok mu?",
+      "signUpLink": "Kayıt ol"
+    },
+    "signup": {
+      "title": "Kayıt ol",
+      "subtitle": "Prototip — gerçek kayıt devre dışı.",
+      "candidate": "İş arıyorum",
+      "employer": "İşverenim",
+      "hasAccount": "Zaten hesabınız var mı?",
+      "signInLink": "Giriş yap"
+    }
+  },
+  "candidate": {
+    "welcome": {
+      "title": "Yurt dışında güvenli iş",
+      "subtitle": "Her adımda sizi koruruz. Hiçbir iş için ücret ödemezsiniz.",
+      "cta": "Başla"
+    },
+    "nav": {
+      "jobs": "İşler",
+      "applications": "Başvurular",
+      "messages": "Mesajlar",
+      "profile": "Profil",
+      "documents": "Belgeler"
+    },
+    "onboarding": {
+      "title": "Sizi tanıyalım",
+      "progress": "Adım {step} / {total}",
+      "next": "Sonraki",
+      "back": "Geri",
+      "finish": "Tamam",
+      "step": {
+        "country": {
+          "title": "Şu an nerede yaşıyorsunuz?",
+          "subtitle": "Doğru vizeyle iş bulmamıza yardım eder."
+        },
+        "desiredCountries": {
+          "title": "Nerede çalışmak istersiniz?",
+          "subtitle": "Bir veya daha fazla ülke seçin."
+        },
+        "industry": {
+          "title": "Hangi sektör?",
+          "subtitle": "Birden fazla seçebilirsiniz."
+        },
+        "experience": {
+          "title": "Kaç yıl deneyim?",
+          "subtitle": "Doğru işi bulmamıza yardım eder."
+        },
+        "languages": {
+          "title": "Hangi dilleri biliyorsunuz?",
+          "subtitle": "Dil ve seviye ekleyin.",
+          "addLanguage": "Dil ekle",
+          "level": {
+            "basic": "Temel",
+            "intermediate": "Orta",
+            "fluent": "İleri"
+          }
+        },
+        "passport": {
+          "title": "Pasaportunuzu yükleyin",
+          "subtitle": "Demo amaçlıdır, hiçbir dosya kaydedilmez.",
+          "capture": "Pasaport fotoğrafı çek",
+          "scanning": "Veriler okunuyor…",
+          "name": "Ad soyad",
+          "birthDate": "Doğum tarihi"
+        },
+        "phone": {
+          "title": "Telefon numarası",
+          "subtitle": "Demo doğrulama kodu 0000.",
+          "phone": "Telefon",
+          "sendCode": "Kod gönder",
+          "code": "SMS kodu",
+          "verify": "Doğrula",
+          "invalidCode": "Geçersiz kod"
+        }
+      },
+      "experience": {
+        "years": "{years, plural, =0 {deneyim yok} other {# yıl}}"
+      }
+    },
+    "feed": {
+      "title": "Size uygun",
+      "subtitle": "Kayıt bilgilerinize göre.",
+      "empty": "Uygun iş yok — profilde hedef ülkeleri genişletin."
+    },
+    "applications": {
+      "title": "Başvurularım",
+      "empty": "Henüz başvuru yok. İşlere giderek başvurun.",
+      "back": "← Başvurulara dön",
+      "updatedAt": "Güncellendi: {date}",
+      "submittedAt": "Gönderildi: {date}",
+      "detail": {
+        "status": "Durum",
+        "history": "Geçmiş",
+        "sla": "İşveren yanıtı {hours} saat içinde."
+      }
+    },
+    "profile": {
+      "title": "Profil",
+      "empty": "Profil henüz doldurulmadı.",
+      "startOnboarding": "Kayda başla"
+    },
+    "documents": {
+      "title": "Belgeler",
+      "empty": "Sonraki sürümde eklenecek."
+    },
+    "messages": {
+      "title": "Mesajlar",
+      "empty": "Başvurunuz onaylandığında mesajlar görünecek."
+    },
+    "pipeline": {
+      "submitted": "Başvuru gönderildi",
+      "under_review": "İşveren inceliyor",
+      "test_assigned": "Test atandı",
+      "video_requested": "Video istendi",
+      "test_completed": "Test tamamlandı",
+      "employer_approved": "Onaylandınız!",
+      "candidate_declined": "Reddettiniz",
+      "docs_requested": "Belge istendi",
+      "docs_submitted": "Belgeler gönderildi",
+      "docs_approved": "Belgeler onaylandı",
+      "visa_submitted": "Vize işlemde",
+      "visa_approved": "Vize onaylandı",
+      "visa_denied": "Vize reddedildi",
+      "tickets_booked": "Biletler alındı",
+      "arrived": "Vardı",
+      "employment_started": "İş başladı",
+      "completed": "Tamamlandı",
+      "rejected": "Reddedildi",
+      "withdrawn": "Geri çekildi",
+      "disputed": "Anlaşmazlık"
+    }
+  },
+  "employer": {
+    "dashboard": {
+      "title": "Kontrol paneli",
+      "metrics": {
+        "activeJobs": "Aktif ilanlar",
+        "pipelineCandidates": "Hattaki adaylar",
+        "hiresThisMonth": "Bu ayki işe alımlar",
+        "averageSla": "Ortalama SLA"
+      }
+    }
+  },
+  "admin": {
+    "title": "Yönetici paneli",
+    "verifications": "Doğrulamalar",
+    "disputes": "Anlaşmazlıklar",
+    "moderation": "Moderasyon",
+    "finances": "Finans"
+  },
+  "jobs": {
+    "list": {
+      "title": "Tüm ilanlar",
+      "empty": "Bu filtrelerle ilan bulunamadı.",
+      "resultsCount": "Bulunan: {count}"
+    },
+    "filters": {
+      "title": "Filtreler",
+      "country": "Ülke",
+      "industry": "Sektör",
+      "salaryMin": "Min. maaş",
+      "reset": "Sıfırla",
+      "apply": "Uygula",
+      "any": "Herhangi"
+    },
+    "card": {
+      "salary": "Maaş",
+      "verified": "Doğrulanmış",
+      "listen": "Açıklamayı dinle",
+      "apply": "Başvur",
+      "perMonth": "/ay",
+      "season": "Sezon"
+    },
+    "detail": {
+      "backToList": "← İlanlara dön",
+      "about": "Rol hakkında",
+      "requirements": "Gereksinimler",
+      "benefits": "Dahil olanlar",
+      "employer": "İşveren",
+      "apply": "Başvur",
+      "loginToApply": "Başvurmak için giriş yap",
+      "applicationsCount": "Başvurular: {count}",
+      "quota": "Kota: {quota}",
+      "experienceYears": "{years, plural, =0 {deneyim gerekmiyor} one {# yıl deneyim} other {# yıl deneyim}}"
+    }
+  },
+  "country": {
+    "TR": "Türkiye",
+    "UK": "Birleşik Krallık",
+    "KR": "Güney Kore",
+    "PL": "Polonya",
+    "DE": "Almanya",
+    "NL": "Hollanda"
+  },
+  "industry": {
+    "hospitality": "Turizm",
+    "agriculture": "Tarım",
+    "manufacturing": "Üretim",
+    "construction": "İnşaat"
+  },
+  "benefit": {
+    "housing": "Konaklama",
+    "meals": "Yemek",
+    "insurance": "Sigorta",
+    "transfer": "Transfer",
+    "bonus": "Prim"
+  },
+  "language": {
+    "switch": "Dili değiştir",
+    "ru": "Русский",
+    "en": "English",
+    "tr": "Türkçe"
+  },
+  "demo": {
+    "switcher": "Demo modu",
+    "candidate": "Aday",
+    "employer": "İşveren",
+    "admin": "Yönetici",
+    "guest": "Ziyaretçi"
+  },
+  "actions": {
+    "continue": "Devam et",
+    "back": "Geri",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "submit": "Gönder",
+    "retry": "Tekrar dene",
+    "loading": "Yükleniyor…",
+    "apply": "Başvur",
+    "listen": "Dinle"
+  },
+  "notifications": {
+    "applicationCreated": "Başvuru işverene gönderildi",
+    "applicationFailed": "Başvuru gönderilemedi",
+    "statusChanged": "Başvuru durumu değişti: {status}",
+    "noNotifications": "Bildirim yok",
+    "title": "Bildirimler",
+    "clear": "Temizle"
+  },
+  "pagination": {
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "page": "Sayfa {page} / {total}"
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "app": {
+    "name": "Work Abroad",
+    "demoBadge": "DEMO",
+    "demoBanner": "This is a prototype — data is not real."
+  },
+  "nav": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "about": "About",
+    "employers": "For employers",
+    "pricing": "Pricing",
+    "trust": "Trust",
+    "applications": "My applications",
+    "messages": "Messages",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "pipeline": "Pipeline",
+    "billing": "Billing",
+    "team": "Team",
+    "settings": "Settings",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out"
+  },
+  "landing": {
+    "hero": {
+      "title": "Safe work abroad",
+      "subtitle": "We protect you at every step. You never pay to get a job.",
+      "ctaCandidate": "Find work",
+      "ctaEmployer": "For employers"
+    },
+    "usp": {
+      "safety": {
+        "title": "Safety",
+        "body": "Verified employers and a transparent process at every step."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "body": "The full journey from application to arrival is visible in the app."
+      },
+      "speed": {
+        "title": "Speed",
+        "body": "Apply in seconds; the platform helps with document preparation."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "step1": {
+        "title": "Pick a job",
+        "body": "Country, industry, salary — all in one feed."
+      },
+      "step2": {
+        "title": "Apply",
+        "body": "Short form plus a passport scan takes 3 minutes."
+      },
+      "step3": {
+        "title": "Get approved",
+        "body": "Employer reviews and may request a short video intro."
+      },
+      "step4": {
+        "title": "Visa & takeoff",
+        "body": "Documents and visa handled by us. No scams."
+      }
+    }
+  },
+  "about": {
+    "title": "About us",
+    "intro": "Work Abroad is a platform for safe international employment of blue-collar workers.",
+    "mission": {
+      "title": "Our mission",
+      "body": "Replace scammer middlemen with verified employers and transparent processes. Never a cent from the worker — ILO 181 principle."
+    },
+    "values": {
+      "title": "Our principles",
+      "safety": "Worker safety comes first, always.",
+      "transparency": "Every action is visible in-app.",
+      "respect": "The worker is an equal participant, not a commodity."
+    }
+  },
+  "employers": {
+    "hero": {
+      "title": "Hire verified workers in 14 days",
+      "subtitle": "Automated pipeline, built-in legal checks, pay only for results.",
+      "cta": "Start hiring"
+    },
+    "benefits": {
+      "title": "What you get",
+      "speed": {
+        "title": "Speed",
+        "body": "Up to 50 applications in the first week after publishing."
+      },
+      "compliance": {
+        "title": "Compliance",
+        "body": "GLAA / POEA / EPS — we verify licenses and paperwork for you."
+      },
+      "tools": {
+        "title": "Tools",
+        "body": "Kanban, video responses, automatic SLA reminders."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Pick the plan that fits. First hire is free.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "€49/mo",
+        "description": "For small teams, 1 job",
+        "features": ["1 active job", "Up to 20 applications/mo", "Email support"]
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "€199/mo",
+        "description": "For growing teams, up to 10 jobs",
+        "features": [
+          "10 active jobs",
+          "Video responses",
+          "Kanban and SLA monitoring",
+          "Priority moderation"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "price": "€599/mo",
+        "description": "For high-volume hiring",
+        "features": ["Unlimited jobs", "ATS integration", "Dedicated CSM", "SSO and audit logs"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "Custom SLAs and SOC2",
+        "features": [
+          "Individual contract",
+          "On-site verification",
+          "SOC2 and DPA",
+          "Success-fee model"
+        ]
+      }
+    },
+    "cta": "Choose"
+  },
+  "trust": {
+    "title": "How we protect the worker",
+    "intro": "Six checks before an employer can publish a job.",
+    "steps": {
+      "1": {
+        "title": "Legal registration",
+        "body": "We verify corporate records via OpenCorporates."
+      },
+      "2": {
+        "title": "Licenses",
+        "body": "GLAA (UK), POEA / DMW (Philippines), EPS (Korea). No license = no posting."
+      },
+      "3": {
+        "title": "Corporate documents",
+        "body": "Articles of incorporation, registration certificate, tax ID."
+      },
+      "4": {
+        "title": "Video interview",
+        "body": "Our staff interviews the employer's contact person."
+      },
+      "5": {
+        "title": "Address verification",
+        "body": "Physical office presence is verified."
+      },
+      "6": {
+        "title": "Worker reviews",
+        "body": "Every worker can leave an anonymous review after onboarding."
+      }
+    },
+    "pledge": "Never a cent from the worker — ILO 181. Violations = ban."
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Demo mode — pick a role, no password required.",
+      "candidate": "Sign in as candidate",
+      "employer": "Sign in as employer",
+      "admin": "Sign in as admin",
+      "noAccount": "No account?",
+      "signUpLink": "Sign up"
+    },
+    "signup": {
+      "title": "Sign up",
+      "subtitle": "Prototype — real registration is disabled.",
+      "candidate": "I'm looking for work",
+      "employer": "I'm an employer",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in"
+    }
+  },
+  "candidate": {
+    "welcome": {
+      "title": "Safe work abroad",
+      "subtitle": "We protect you at every step. You never pay to get a job.",
+      "cta": "Start"
+    },
+    "nav": {
+      "jobs": "Jobs",
+      "applications": "Applications",
+      "messages": "Messages",
+      "profile": "Profile",
+      "documents": "Documents"
+    },
+    "onboarding": {
+      "title": "Let's get to know you",
+      "progress": "Step {step} of {total}",
+      "next": "Next",
+      "back": "Back",
+      "finish": "Done",
+      "step": {
+        "country": {
+          "title": "Where do you live now?",
+          "subtitle": "This helps us match jobs with the right visa."
+        },
+        "desiredCountries": {
+          "title": "Where do you want to work?",
+          "subtitle": "Pick one or several countries."
+        },
+        "industry": {
+          "title": "Which sector?",
+          "subtitle": "You can pick several."
+        },
+        "experience": {
+          "title": "Years of experience?",
+          "subtitle": "This helps us match the right jobs."
+        },
+        "languages": {
+          "title": "What languages do you speak?",
+          "subtitle": "Add languages and your level.",
+          "addLanguage": "Add language",
+          "level": {
+            "basic": "Basic",
+            "intermediate": "Intermediate",
+            "fluent": "Fluent"
+          }
+        },
+        "passport": {
+          "title": "Upload your passport",
+          "subtitle": "Fields are read automatically — demo only, no file is stored.",
+          "capture": "Take a passport photo",
+          "scanning": "Reading data…",
+          "name": "Full name",
+          "birthDate": "Date of birth"
+        },
+        "phone": {
+          "title": "Phone number",
+          "subtitle": "Demo verification code is 0000.",
+          "phone": "Phone number",
+          "sendCode": "Send code",
+          "code": "SMS code",
+          "verify": "Verify",
+          "invalidCode": "Invalid code"
+        }
+      },
+      "experience": {
+        "years": "{years, plural, =0 {no experience} one {# year} other {# years}}"
+      }
+    },
+    "feed": {
+      "title": "Matched for you",
+      "subtitle": "Jobs based on your onboarding.",
+      "empty": "No matching jobs yet — try broadening your desired countries in your profile."
+    },
+    "applications": {
+      "title": "My applications",
+      "empty": "No applications yet. Go to jobs to apply.",
+      "back": "← Back to applications",
+      "updatedAt": "Updated: {date}",
+      "submittedAt": "Submitted: {date}",
+      "detail": {
+        "status": "Current status",
+        "history": "History",
+        "sla": "Employer reply within {hours} h."
+      }
+    },
+    "profile": {
+      "title": "Profile",
+      "empty": "Profile is not set up yet. Complete onboarding to start.",
+      "startOnboarding": "Start onboarding"
+    },
+    "documents": {
+      "title": "Documents",
+      "empty": "Documents will be added in the next release."
+    },
+    "messages": {
+      "title": "Messages",
+      "empty": "Messages will appear after your application is approved."
+    },
+    "pipeline": {
+      "submitted": "Application submitted",
+      "under_review": "Employer is reviewing",
+      "test_assigned": "Test assigned",
+      "video_requested": "Video requested",
+      "test_completed": "Test completed",
+      "employer_approved": "You're approved!",
+      "candidate_declined": "You declined",
+      "docs_requested": "Documents requested",
+      "docs_submitted": "Documents submitted",
+      "docs_approved": "Documents approved",
+      "visa_submitted": "Visa in process",
+      "visa_approved": "Visa approved",
+      "visa_denied": "Visa denied",
+      "tickets_booked": "Tickets booked",
+      "arrived": "Arrived",
+      "employment_started": "Employment started",
+      "completed": "Completed",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "disputed": "In dispute"
+    }
+  },
+  "employer": {
+    "dashboard": {
+      "title": "Dashboard",
+      "metrics": {
+        "activeJobs": "Active jobs",
+        "pipelineCandidates": "Candidates in pipeline",
+        "hiresThisMonth": "Hires this month",
+        "averageSla": "Average SLA"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin console",
+    "verifications": "Verifications",
+    "disputes": "Disputes",
+    "moderation": "Moderation",
+    "finances": "Finances"
+  },
+  "jobs": {
+    "list": {
+      "title": "All jobs",
+      "empty": "No jobs match these filters.",
+      "resultsCount": "Found: {count}"
+    },
+    "filters": {
+      "title": "Filters",
+      "country": "Country",
+      "industry": "Industry",
+      "salaryMin": "Min. salary",
+      "reset": "Reset",
+      "apply": "Apply",
+      "any": "Any"
+    },
+    "card": {
+      "salary": "Salary",
+      "verified": "Verified",
+      "listen": "Listen to description",
+      "apply": "Apply",
+      "perMonth": "/mo",
+      "season": "Season"
+    },
+    "detail": {
+      "backToList": "← Back to jobs",
+      "about": "About the role",
+      "requirements": "Requirements",
+      "benefits": "What's included",
+      "employer": "Employer",
+      "apply": "Apply",
+      "loginToApply": "Sign in to apply",
+      "applicationsCount": "Applications: {count}",
+      "quota": "Quota: {quota}",
+      "experienceYears": "{years, plural, =0 {no experience required} one {# year of experience} other {# years of experience}}"
+    }
+  },
+  "country": {
+    "TR": "Turkey",
+    "UK": "United Kingdom",
+    "KR": "South Korea",
+    "PL": "Poland",
+    "DE": "Germany",
+    "NL": "Netherlands"
+  },
+  "industry": {
+    "hospitality": "Hospitality",
+    "agriculture": "Agriculture",
+    "manufacturing": "Manufacturing",
+    "construction": "Construction"
+  },
+  "benefit": {
+    "housing": "Housing",
+    "meals": "Meals",
+    "insurance": "Insurance",
+    "transfer": "Transfer",
+    "bonus": "Bonus"
+  },
+  "language": {
+    "switch": "Change language",
+    "ru": "Русский",
+    "en": "English",
+    "tr": "Türkçe"
+  },
+  "demo": {
+    "switcher": "Demo mode",
+    "candidate": "Candidate",
+    "employer": "Employer",
+    "admin": "Admin",
+    "guest": "Guest"
+  },
+  "actions": {
+    "continue": "Continue",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "apply": "Apply",
+    "listen": "Listen"
+  },
+  "notifications": {
+    "applicationCreated": "Application sent to the employer",
+    "applicationFailed": "Could not submit the application",
+    "statusChanged": "Application status changed: {status}",
+    "noNotifications": "No notifications",
+    "title": "Notifications",
+    "clear": "Clear"
+  },
+  "pagination": {
+    "prev": "Prev",
+    "next": "Next",
+    "page": "Page {page} of {total}"
+  }
+}
