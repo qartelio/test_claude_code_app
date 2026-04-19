@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens from HLD §6.2, §6.6.
+ * Tailwind v4 `@theme inline` maps them into utility classes
+ * (text-primary, bg-surface, border-border, rounded-md, shadow-card, …).
+ */
+:root {
+  --color-primary: #1e5aa8;
+  --color-primary-dark: #123e7e;
+  --color-accent: #2e8b57;
+  --color-warning: #d97706;
+  --color-danger: #c53030;
+  --color-success: #2f855a;
+  --color-verified-badge: #0f766e;
+  --color-unverified-badge: #a1a1aa;
+
+  --color-surface: #f9fafb;
+  --color-surface-2: #ffffff;
+  --color-foreground: #111827;
+  --color-foreground-muted: #4b5563;
+  --color-border: #e5e7eb;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.04);
+
+  --spacing-gutter-mobile: 16px;
+  --spacing-gutter-desktop: 24px;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@theme inline {
+  --color-background: var(--color-surface);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-accent: var(--color-accent);
+  --color-warning: var(--color-warning);
+  --color-danger: var(--color-danger);
+  --color-success: var(--color-success);
+  --color-verified: var(--color-verified-badge);
+  --color-unverified: var(--color-unverified-badge);
+  --color-surface-2: var(--color-surface-2);
+  --color-muted: var(--color-foreground-muted);
+  --color-border: var(--color-border);
+
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+
+  --shadow-card: var(--shadow-card);
+}
+
+html,
+body {
+  background: var(--color-surface);
+  color: var(--color-foreground);
+  font-family:
+    var(--font-sans),
+    system-ui,
+    -apple-system,
+    Arial,
+    sans-serif;
+  line-height: 1.5;
+  min-height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
