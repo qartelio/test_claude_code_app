@@ -7,16 +7,25 @@ import { Button } from '@/components/ui/button';
 import { useAuthStore } from '@/features/auth/store';
 import { Link, useRouter } from '@/i18n/navigation';
 
+type Role = 'candidate' | 'employer' | 'admin';
+
+const POST_LOGIN_DESTINATION: Record<Role, '/candidate/jobs' | '/employers' | '/'> = {
+  candidate: '/candidate/jobs',
+  employer: '/employers',
+  admin: '/',
+};
+
 export function RoleLoginPanel() {
   const t = useTranslations('auth.login');
   const signInAs = useAuthStore((s) => s.signInAs);
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
 
-  function selectRole(role: 'candidate' | 'employer' | 'admin') {
+  function selectRole(role: Role) {
     signInAs(role);
+    const destination = POST_LOGIN_DESTINATION[role];
     startTransition(() => {
-      router.replace('/');
+      router.replace(destination);
     });
   }
 

@@ -1,35 +1,61 @@
 @import 'tailwindcss';
 
 /*
- * Design tokens from HLD §6.2, §6.6.
- * Tailwind v4 `@theme inline` maps them into utility classes
- * (text-primary, bg-surface, border-border, rounded-md, shadow-card, …).
+ * Modern design tokens. Brand-aligned but with softer surfaces,
+ * layered shadows, subtle gradients and refined type scale.
  */
 :root {
-  --color-primary: #1e5aa8;
-  --color-primary-dark: #123e7e;
-  --color-accent: #2e8b57;
-  --color-warning: #d97706;
-  --color-danger: #c53030;
-  --color-success: #2f855a;
-  --color-verified-badge: #0f766e;
-  --color-unverified-badge: #a1a1aa;
+  /* Brand */
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-soft: #eff6ff;
+  --color-accent: #10b981;
+  --color-accent-soft: #ecfdf5;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-success: #10b981;
+  --color-verified-badge: #0d9488;
+  --color-unverified-badge: #94a3b8;
 
-  --color-surface: #f9fafb;
+  /* Surfaces */
+  --color-surface: #f8fafc;
   --color-surface-2: #ffffff;
-  --color-foreground: #111827;
-  --color-foreground-muted: #4b5563;
-  --color-border: #e5e7eb;
+  --color-surface-muted: #f1f5f9;
+  --color-foreground: #0f172a;
+  --color-foreground-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
 
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
 
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.04);
+  /* Shadows — layered & modern */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-card:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 8px 24px -12px rgba(15, 23, 42, 0.08);
+  --shadow-elevated:
+    0 4px 6px -2px rgba(15, 23, 42, 0.04),
+    0 12px 32px -8px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 8px 32px -8px rgba(37, 99, 235, 0.35);
 
+  /* Gradients */
+  --gradient-hero:
+    radial-gradient(at 20% 10%, rgba(37, 99, 235, 0.12) 0%, transparent 50%),
+    radial-gradient(at 85% 0%, rgba(16, 185, 129, 0.1) 0%, transparent 45%),
+    radial-gradient(at 50% 100%, rgba(99, 102, 241, 0.08) 0%, transparent 55%);
+  --gradient-brand: linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%);
+  --gradient-accent: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
+
+  /* Spacing */
   --spacing-gutter-mobile: 16px;
   --spacing-gutter-desktop: 24px;
 
+  /* Typography */
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains-mono);
 }
@@ -39,15 +65,19 @@
   --color-foreground: var(--color-foreground);
   --color-primary: var(--color-primary);
   --color-primary-dark: var(--color-primary-dark);
+  --color-primary-soft: var(--color-primary-soft);
   --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
   --color-warning: var(--color-warning);
   --color-danger: var(--color-danger);
   --color-success: var(--color-success);
   --color-verified: var(--color-verified-badge);
   --color-unverified: var(--color-unverified-badge);
   --color-surface-2: var(--color-surface-2);
+  --color-surface-muted: var(--color-surface-muted);
   --color-muted: var(--color-foreground-muted);
   --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
 
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
@@ -55,8 +85,13 @@
   --radius-sm: var(--radius-sm);
   --radius-md: var(--radius-md);
   --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-pill: var(--radius-pill);
 
+  --shadow-sm: var(--shadow-sm);
   --shadow-card: var(--shadow-card);
+  --shadow-elevated: var(--shadow-elevated);
+  --shadow-glow: var(--shadow-glow);
 }
 
 html,
@@ -69,14 +104,74 @@ body {
     -apple-system,
     Arial,
     sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
   min-height: 100%;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+/* Smooth focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Utility classes used throughout the redesign */
+.bg-hero-gradient {
+  background: var(--gradient-hero);
+}
+
+.bg-brand-gradient {
+  background: var(--gradient-brand);
+}
+
+.text-gradient-brand {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+}
+
+.ring-focus:focus-visible {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+}
+
+/* Subtle entrance for hero */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out both;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.6s 0.08s ease-out both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.6s 0.16s ease-out both;
 }
 
 @media (prefers-reduced-motion: reduce) {
